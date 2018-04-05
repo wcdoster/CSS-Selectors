@@ -23,19 +23,19 @@ a .disabled {
     color: yellow;
 }
 
-.red {
+.parent > div > div {
     color: red;
 }
 
-.blue {
+.parent > div > div ~ div{
     color: blue;
 }
 
-.red + h4 {
+.parent > div > div + h4 {
     background-color: red;
 }
 
-.blue + h4 {
+.blue > div > div ~ div + h4 {
     background-color: blue;
 }
 
